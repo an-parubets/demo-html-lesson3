@@ -1,0 +1,78 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: rgba(12, 240, 32, 0.5);
+    color: aquamarine;
+}
+
+div {
+    background: #f1a3b6;
+    margin: 10px;
+}
+
+.block {
+    color: blue;
+}
+
+[title] {
+    margin: 25px;
+}
+
+div[title="Block"] {
+    margin: 0;
+}
+
+#container {
+    color: brown;
+    background: url('./img/poster.jpeg');
+}
+
+.root section {
+    background: purple;
+}
+
+div:hover {
+    background: brown;
+    cursor: pointer;
+}
+ */
+ 
+:root {
+    --font-size: 16px;
+    --font-color: #f1f1f1;
+
+    --primary-color: #f1f1f1;
+    --secondary-color: #457565;
+}
+
+
+ section .block {
+    background: rebeccapurple;
+ }
+
+.block {
+    --block-color: red;
+
+    background: var(--block-color);
+    color: var(--font-color);
+    font-size: var(--font-size);
+}
+
+article {
+    color: var(--font-color);
+    font-size: var(--font-size);
+}
+
+ div {
+    color: brown;
+    background: yellow;
+ }
+
+ div {
+    background: green;
+ }
+
